@@ -3,19 +3,18 @@
     x:Class="F.V_Apuntes.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:F.V_Apuntes"
+    xmlns:views ="clr-namespace:F.V_Apuntes.Views"
     Shell.FlyoutBehavior="Disabled">
 
     <TabBar>
         <ShellContent
             Title="Notes"
-            ContentTemplate="{DataTemplate local:MainPage}"
+            ContentTemplate="{DataTemplate views:FV_AllNotesPage}"
             Icon="{OnPlatform 'icon_notes.png'}" />
 
         <ShellContent
             Title="About"
-            ContentTemplate="{DataTemplate local:FV_AboutPage}"
+            ContentTemplate="{DataTemplate views:FV_AboutPage}"
             Icon="{OnPlatform 'icon_about.png'}" />
     </TabBar>
-
 </Shell>

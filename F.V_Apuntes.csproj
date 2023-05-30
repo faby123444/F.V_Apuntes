@@ -54,10 +54,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="FV_AboutPage.xaml">
+	  <MauiXaml Update="Views\FV_AboutPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="FV_NotePage.xaml">
+	  <MauiXaml Update="Views\FV_AllNotesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\FV_NotePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
